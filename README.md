@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Niranjan P  
+# 👋 Hi, I'm Niranjan   
 🎓 Civil Engineering + AI Researcher @ IIT Madras  
 💡 Focused on Structural Health Monitoring & Computer Vision  
 
