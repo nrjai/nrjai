@@ -1,80 +1,55 @@
-# 👋 Hi, I'm Niranjan   
-🎓 Civil Engineering + AI Researcher @ IIT Madras  
-💡 Focused on Structural Health Monitoring & Computer Vision  
+<p align="center">
+  <img src="assets/header.svg" alt="Hi, I'm Niranjan - civil engineer building AI for infrastructure" width="100%">
+</p>
 
----
+<p align="center">
+  <a href="https://www.corrsens.com"><img src="https://img.shields.io/badge/CorrSens-corrsens.com-7c3aed?style=flat" alt="CorrSens"></a>
+  <img src="https://img.shields.io/badge/ISB%20Hyderabad-IVI%20program-ff5fa2?style=flat" alt="ISB Hyderabad, IVI program">
+  <img src="https://img.shields.io/badge/IIT%20Madras-CV%20research-8b5cf6?style=flat" alt="IIT Madras, computer vision research">
+  <img src="https://img.shields.io/badge/NIT%20Calicut-B.Tech-3b3355?style=flat" alt="NIT Calicut, B.Tech">
+  <a href="mailto:pniranjan984@gmail.com"><img src="https://img.shields.io/badge/email-say%20hi-34d399?style=flat&logo=gmail&logoColor=white" alt="email"></a>
+</p>
 
-### About Me  
-- 🔭 Currently developing **PRISM (Proactive Reporting with Image-based Structural Monitoring)** — an intelligent framework for automating structural inspection.  
--  Passionate about blending **drone-based photogrammetry**, **AI-based defect detection**, and **engineering domain logic**.  
--  Experienced in building **YOLOv8-based vision pipelines**, **construction chatbots**, and **automated diagnostic systems**.  
--  Enthusiast in sustainable tech, research automation, and applied AI for infrastructure.  
+### What I do
 
----
+I'm a civil engineer who builds AI tools for **ageing infrastructure**: turning drone footage,
+LiDAR scans and engineering specs into something an engineer can actually act on.
 
-### 🛰️ Featured Research Project  
+### Co-founder of [CorrSens](https://www.corrsens.com)
 
-#### **PRISM – Proactive Structural Health Monitoring Framework**
-**[🔗 Repository](https://github.com/yourusername/prism-structural-health-monitoring)**  
-PRISM (Proactive Reporting with Image-based Structural Monitoring) transforms manual structural inspection into an automated, data-driven service.
+Structural audits, NDT testing and corrosion protection for critical infrastructure, developed at IIT Madras.
 
-**🔍 Key Highlights**
-- **Drone-based photogrammetry** using Agisoft Metashape to generate a millimeter-accurate 3D Digital Twin.  
-- **YOLOv8 semantic segmentation** detects and categorizes surface defects like cracks, spalling, corrosion, and scaling.  
-- **2D–3D projection algorithm** anchors each defect to its real-world coordinates and scale using calibrated camera parameters.  
-- **Hybrid Diagnostic Engine** applies codified engineering rules to classify root causes and suggest **predictive maintenance actions**.  
-- Designed to provide **objective, quantifiable, and continuous monitoring** for critical infrastructure.
+- **Bridgescan** turns bridge point clouds into reviewable BIM elements
+- **InfraTWIN** is a digital-twin platform for inspection data
 
-**Tech Stack:**  
-Python, PyTorch, OpenCV, YOLOv8, Agisoft Metashape API, NumPy, SciPy, Matplotlib, Pandas  
+### Journey
 
-**Keywords:**  
-Computer Vision · Photogrammetry · Structural Health Monitoring · BIM · Predictive Maintenance  
+| | Where | What |
+|---|---|---|
+| **now** | Indian School of Business, Hyderabad | IVI program |
+| **before** | IIT Madras | Computer vision research |
+| **start** | NIT Calicut | B.Tech |
 
----
+### Featured projects
 
-### 🧩 Other Projects  
+| Project | What it is |
+|---|---|
+| **[nrjNET](https://github.com/nrjai/nrjNET)** | My first neural network, built **from scratch** in pure Python. Autograd, backprop and an MLP, with gradients verified against PyTorch. |
+| **[Civion](https://github.com/nrjai/Civion)** | A compliance engine for IS 456:2000 concrete specs. Upload a spec PDF, get an audit, chat about it and generate a corrected version. |
+| **[Gaussian Splatting Demo](https://github.com/nrjai/Gaussian_splatting_demo)** | Gaussian splatting, a new kind of 3D modelling, applied to a bridge in Kerala |
+| **[Construction Object Detection](https://github.com/nrjai/Construction-object-detection---YOLO)** | YOLOv8 material detection for construction progress monitoring |
 
-#### 🧠 [Civion – Construction Chatbot](https://github.com/yourusername/civion-construction-chatbot)
-A Flowise-based chatbot that analyzes contractor specifications and provides IS/ASTM-aligned engineering insights.  
-- Document Q&A + technical compliance checking.  
-- Built using open-source LLMs and LangChain.  
+### Toolbox
 
-#### 🏗️ [Material Detection using YOLOv8](https://github.com/yourusername/material-detection-yolov8)
-Trained a YOLOv8 model on 162 drone-captured site images to detect and classify construction materials.  
-- Dataset annotation via Roboflow.  
-- Integration with BIM for progress tracking.  
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,fastapi,react,vite,threejs,postgres,git&perline=9" alt="Python, PyTorch, OpenCV, FastAPI, React, Vite, Three.js, PostgreSQL, Git">
+</p>
 
-#### 📚 [Mini Projects](https://github.com/yourusername/mini-projects)
-A collection of small experiments:  
-- Object Tracking (OpenCV)  
-- Semantic Segmentation (U-Net)  
-- Pose Detection (MediaPipe)  
+**Also:** YOLOv8 · point clouds (LAS) · BIM / IFC · photogrammetry · Gaussian splatting
 
----
+### Currently learning
 
-### 🧰 Tech Stack  
-**Languages:** Python, MATLAB 
-**Frameworks:** PyTorch, OpenCV,YOLO    
-**Tools:** Agisoft Metashape, Roboflow, Flowise AI  
-**Domains:** Computer Vision, Drone Photogrammetry, BIM Automation, Predictive Maintenance  
+Deep learning **from first principles**: building every piece by hand before using the frameworks.
+Started with [nrjNET](https://github.com/nrjai/nrjNET).
 
----
-
-### 🌱 Currently Exploring  
-- Vision-Language Models (VLMs) for structural diagnostics  
-- BIM and Digital Twin integration for smart infrastructure  
-- Automated inspection workflows using drones + AI  
-
----
-
-### 📫 Connect with Me  
-📧 Email: pniranjan984@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-  
-
-
----
-
-⭐ *“Turning visual data into engineering intelligence.”*
-
+<p align="center"><sub>turning visual data into engineering intelligence</sub></p>

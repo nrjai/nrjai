@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Hi, I'm Niranjan - civil engineer building AI for infrastructure">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdf2ff"/>
+      <stop offset="55%" stop-color="#f0ebff"/>
+      <stop offset="100%" stop-color="#e6fbf3"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff5fa2"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="28" fill="url(#bg)"/>
+
+  <!-- bridge being scanned -->
+  <g fill="none" stroke-linecap="round">
+    <!-- deck -->
+    <line x1="560" y1="120" x2="860" y2="120" stroke="#7c3aed" stroke-width="6"/>
+    <!-- arches -->
+    <path d="M575 120 Q635 60 695 120" stroke="#a78bfa" stroke-width="4"/>
+    <path d="M695 120 Q755 60 815 120" stroke="#a78bfa" stroke-width="4"/>
+    <!-- piers -->
+    <line x1="575" y1="120" x2="575" y2="180" stroke="#8b5cf6" stroke-width="6"/>
+    <line x1="695" y1="120" x2="695" y2="180" stroke="#8b5cf6" stroke-width="6"/>
+    <line x1="815" y1="120" x2="815" y2="180" stroke="#8b5cf6" stroke-width="6"/>
+    <!-- water -->
+    <path d="M545 186 q15 -6 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" stroke="#86efac" stroke-width="3"/>
+  </g>
+  <!-- scan points -->
+  <g fill="#ff8fc0">
+    <circle cx="600" cy="96" r="3"/><circle cx="620" cy="86" r="3"/><circle cx="640" cy="82" r="3"/>
+    <circle cx="660" cy="86" r="3"/><circle cx="680" cy="98" r="3"/><circle cx="720" cy="98" r="3"/>
+    <circle cx="740" cy="86" r="3"/><circle cx="760" cy="82" r="3"/><circle cx="780" cy="86" r="3"/>
+    <circle cx="800" cy="96" r="3"/>
+  </g>
+  <!-- drone -->
+  <g transform="translate(700 38)">
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#3b3355" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="-4" rx="10" ry="2.5" fill="#c4b5fd"/>
+    <ellipse cx="22" cy="-4" rx="10" ry="2.5" fill="#c4b5fd"/>
+    <rect x="-8" y="-3" width="16" height="9" rx="3" fill="#3b3355"/>
+    <path d="M0 6 L-30 52 L30 52 Z" fill="#ff8fc0" opacity="0.18"/>
+  </g>
+  <!-- sparkles -->
+  <path d="M520 40 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" fill="#ffb3d4"/>
+  <path d="M60 180 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 z" fill="#86efac"/>
+
+  <text x="60" y="98" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#title)" letter-spacing="-1">Hi, I'm Niranjan</text>
+  <text x="62" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="600" fill="#3b3355">civil engineer · building AI for infrastructure</text>
+  <text x="62" y="168" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#6b6386">NIT Calicut → IIT Madras → ISB Hyderabad</text>
+</svg>
