@@ -1,52 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Hi, I'm Niranjan - civil engineer building AI for infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Hi, I'm Niranjan - civil engineer building AI for infrastructure">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fdf2ff"/>
-      <stop offset="55%" stop-color="#f0ebff"/>
-      <stop offset="100%" stop-color="#e6fbf3"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1a2a20" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0e0c" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#0a0e0c" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0e0c" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff5fa2"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4ade80" stop-opacity="0"/>
     </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="win"><rect x="0.5" y="0.5" width="899" height="239" rx="12"/></clipPath>
   </defs>
+  <g clip-path="url(#win)">
 
-  <rect width="900" height="220" rx="28" fill="url(#bg)"/>
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="899" height="239" rx="12" fill="#0a0e0c" stroke="#22302a"/>
+  <rect x="1" y="34" width="898" height="205" fill="url(#grid)"/>
+  <rect x="1" y="34" width="560" height="205" fill="url(#fade)"/>
+  <path d="M1 34H899" stroke="#22302a"/>
+  <path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v21H1z" fill="#111814"/>
+  <circle cx="22" cy="17" r="5.5" fill="#2b3a31"/><circle cx="40" cy="17" r="5.5" fill="#2b3a31"/><circle cx="58" cy="17" r="5.5" fill="#2b3a31"/>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="239" rx="12" fill="none" stroke="#22302a"/>
+  <text x="450" y="21.5" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" font-size="12" fill="#5f6d64">~/niranjan — zsh</text>
 
-  <!-- bridge being scanned -->
-  <g fill="none" stroke-linecap="round">
-    <!-- deck -->
-    <line x1="560" y1="120" x2="860" y2="120" stroke="#7c3aed" stroke-width="6"/>
-    <!-- arches -->
-    <path d="M575 120 Q635 60 695 120" stroke="#a78bfa" stroke-width="4"/>
-    <path d="M695 120 Q755 60 815 120" stroke="#a78bfa" stroke-width="4"/>
-    <!-- piers -->
-    <line x1="575" y1="120" x2="575" y2="180" stroke="#8b5cf6" stroke-width="6"/>
-    <line x1="695" y1="120" x2="695" y2="180" stroke="#8b5cf6" stroke-width="6"/>
-    <line x1="815" y1="120" x2="815" y2="180" stroke="#8b5cf6" stroke-width="6"/>
-    <!-- water -->
-    <path d="M545 186 q15 -6 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" stroke="#86efac" stroke-width="3"/>
+  <g font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace">
+    <text x="40" y="72" font-size="15" fill="#5f6d64"><tspan fill="#4ade80">$</tspan> whoami</text>
+    <text x="40" y="122" font-size="44" font-weight="700" fill="#e6f0e9" letter-spacing="-1" filter="url(#glow)"><tspan fill="#4ade80">&gt;</tspan> Hi, I'm Niranjan<tspan fill="#4ade80" dx="6">█<animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text>
+    <text x="42" y="160" font-size="18" fill="#4ade80">civil engineer · building AI for infrastructure</text>
+    <text x="42" y="192" font-size="14" fill="#5f6d64"><tspan fill="#67e8f9">NIT Calicut</tspan> → <tspan fill="#67e8f9">IIT Madras</tspan> → <tspan fill="#67e8f9">ISB Hyderabad</tspan></text>
+    <text x="42" y="218" font-size="12" fill="#3d4a42">// turning visual data into engineering intelligence</text>
   </g>
-  <!-- scan points -->
-  <g fill="#ff8fc0">
-    <circle cx="600" cy="96" r="3"/><circle cx="620" cy="86" r="3"/><circle cx="640" cy="82" r="3"/>
-    <circle cx="660" cy="86" r="3"/><circle cx="680" cy="98" r="3"/><circle cx="720" cy="98" r="3"/>
-    <circle cx="740" cy="86" r="3"/><circle cx="760" cy="82" r="3"/><circle cx="780" cy="86" r="3"/>
-    <circle cx="800" cy="96" r="3"/>
-  </g>
-  <!-- drone -->
-  <g transform="translate(700 38)">
-    <line x1="-22" y1="0" x2="22" y2="0" stroke="#3b3355" stroke-width="3" stroke-linecap="round"/>
-    <ellipse cx="-22" cy="-4" rx="10" ry="2.5" fill="#c4b5fd"/>
-    <ellipse cx="22" cy="-4" rx="10" ry="2.5" fill="#c4b5fd"/>
-    <rect x="-8" y="-3" width="16" height="9" rx="3" fill="#3b3355"/>
-    <path d="M0 6 L-30 52 L30 52 Z" fill="#ff8fc0" opacity="0.18"/>
-  </g>
-  <!-- sparkles -->
-  <path d="M520 40 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" fill="#ffb3d4"/>
-  <path d="M60 180 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 z" fill="#86efac"/>
 
-  <text x="60" y="98" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#title)" letter-spacing="-1">Hi, I'm Niranjan</text>
-  <text x="62" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="600" fill="#3b3355">civil engineer · building AI for infrastructure</text>
-  <text x="62" y="168" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#6b6386">NIT Calicut → IIT Madras → ISB Hyderabad</text>
+  <!-- drone scanning a bridge, drawn as a wireframe + point cloud -->
+  <g transform="translate(18 18)">
+    <path d="M700 30 L640 92 L760 92 Z" fill="url(#beam)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <g transform="translate(700 26)">
+      <line x1="-22" y1="0" x2="22" y2="0" stroke="#67e8f9" stroke-width="2.5" stroke-linecap="round"/>
+      <ellipse cx="-22" cy="-4" rx="10" ry="2" fill="none" stroke="#67e8f9" stroke-width="1.5"/>
+      <ellipse cx="22" cy="-4" rx="10" ry="2" fill="none" stroke="#67e8f9" stroke-width="1.5"/>
+      <rect x="-8" y="-3" width="16" height="9" rx="2" fill="#0a0e0c" stroke="#67e8f9" stroke-width="1.5"/>
+      <circle cx="0" cy="7" r="1.8" fill="#4ade80"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <line x1="560" y1="120" x2="860" y2="120" stroke="#4ade80" stroke-width="3"/>
+      <path d="M575 120 Q635 60 695 120" stroke="#2f6b47" stroke-width="2" stroke-dasharray="4 5"/>
+      <path d="M695 120 Q755 60 815 120" stroke="#2f6b47" stroke-width="2" stroke-dasharray="4 5"/>
+      <line x1="575" y1="120" x2="575" y2="178" stroke="#4ade80" stroke-width="3"/>
+      <line x1="695" y1="120" x2="695" y2="178" stroke="#4ade80" stroke-width="3"/>
+      <line x1="815" y1="120" x2="815" y2="178" stroke="#4ade80" stroke-width="3"/>
+      <path d="M545 186 q15 -5 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" stroke="#164e63" stroke-width="2"/>
+    </g>
+
+    <g fill="#67e8f9" filter="url(#glow)">
+      <circle cx="590" cy="104" r="2.4"/><circle cx="605" cy="94" r="2.4"/><circle cx="620" cy="87" r="2.4"/>
+      <circle cx="635" cy="84" r="2.4"/><circle cx="650" cy="87" r="2.4"/><circle cx="665" cy="94" r="2.4"/>
+      <circle cx="680" cy="104" r="2.4"/><circle cx="710" cy="104" r="2.4"/><circle cx="725" cy="94" r="2.4"/>
+      <circle cx="740" cy="87" r="2.4"/><circle cx="755" cy="84" r="2.4"/><circle cx="770" cy="87" r="2.4"/>
+      <circle cx="785" cy="94" r="2.4"/><circle cx="800" cy="104" r="2.4"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+    <text x="842" y="200" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#3d4a42">pts: 14 · scan ok</text>
+  </g>
 </svg>
